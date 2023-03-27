@@ -97,12 +97,12 @@ export function WorkDayPlannerPic() {
     )
 }
 
-export function TeamTrackerPic() {
+export function TeamGeneratorPic() {
     return(
         <div>
             <img  
                 className='w-96 h-96 object-hidden'
-                src={require('../assets/images/teamTracker.png')}
+                src={require('../assets/images/teamGenerator.png')}
                 alt='Team Tracker Challenge'
             />
         </div>

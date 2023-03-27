@@ -20,7 +20,7 @@ export default function ProjectModal(props) {
     <>
     <div style={styles.merriweather} className='text-blue'>
       <button
-        className="hover:boxShadow"
+        className="active:shadow-lg shadow-blue"
         // type="button"
         onClick={() => setShowModal(true)}
       >

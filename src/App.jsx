@@ -7,6 +7,7 @@ import MainPage from './pages/Main';
 import Footer from './components/Footer';
 import AboutMe from './pages/AboutMe';
 import PortfolioPage from './pages/Portfolio';
+import ContactMe from './pages/ContactMe';
 
 
 import './index.css';
@@ -33,6 +34,7 @@ function App() {
             <Route path='/nrose19/react-portfolio' element={<MainPage />} />
             <Route path='/nrose19/react-portfolio/about-me' element={<AboutMe />} />
             <Route path='/nrose19/react-portfolio/portfolio' element={<PortfolioPage />} />
+            <Route path='/nrose19/react-portfolio/contact-me' element={<ContactMe />} />
           </Routes>
         </div>
         <div style={styles.footerPin}>

@@ -1,5 +1,7 @@
-
+import { Link } from 'react-router-dom';
 import { AboutMePic } from "../components/Images"
+
+import {BsDownload} from 'react-icons/bs'
 
 import '../assets/fonts/fonts.css'
 
@@ -13,6 +15,21 @@ const styles = {
 }
 
 export default function AboutMe() {
+
+    const resume = () => {
+        // using Java Script method to get PDF file
+        fetch('Resume2023.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Resume2023.pdf';
+                alink.click();
+            })
+        })
+    }
 
     return(
         <>
@@ -32,9 +49,15 @@ export default function AboutMe() {
                     once in their life, it is empowering. The picture to the left is from the top of Arthur's Seat, a famous mountain 
                     that sits within Edinburgh, Scotland. 
                     <br></br>
-                    Please feel free to contact me if you would like to connect further. I look
+                    Please look over my Resume, which is placed below, and feel free to contact me if you would like to connect further. I look
                     forward to hearing from you!
                 </p>
+                    <button onClick={resume} target='_blank'
+                    className='mt-10 text-xl flex flex-row items-baseline'
+                    >
+                        <h1 style={styles.oswald} className="px-1">Resume</h1>
+                        <BsDownload />
+                    </button>
             </div>
         </div>
         </>

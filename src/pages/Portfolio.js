@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Project1, Project2, Project3, SocialApi, WorkDayPlanner, TeamTracker } from '../components/Project';
+import { Project1, Project2, Project3, SocialApi, WorkDayPlanner, TeamGenerator } from '../components/Project';
 
 import '../assets/fonts/fonts.css'
 
@@ -31,7 +31,7 @@ export default function PortfolioPage() {
                     <Project1 />
                     <SocialApi />
                     <WorkDayPlanner />
-                    <TeamTracker />
+                    <TeamGenerator />
                 </div>
 
             </div>

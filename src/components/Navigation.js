@@ -45,7 +45,7 @@ export default function Nav() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/nrose19/react-portfolio/contact-page" className='flex flex-row m-6 items-baseline'>
+                        <Link to="/nrose19/react-portfolio/contact-me" className='flex flex-row m-6 items-baseline'>
                         <h1 style={styles.merriweather}>Contact</h1>
                         Me
                         </Link>
