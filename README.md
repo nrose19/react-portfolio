@@ -20,8 +20,8 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Visuals
 
-<img width="1440" alt="portfolio landing page" src="https://user-images.githubusercontent.com/113370886/206111638-860b8f85-0d61-4bca-b46d-fc1be3b00033.png">
+<img width="1438" alt="portfolio landing page" src="https://user-images.githubusercontent.com/113370886/227821716-a23a7f6c-6a2c-4b55-b57f-e5e45f5a8616.png">
 
-<img width="959" alt="about me section" src="https://user-images.githubusercontent.com/113370886/206111664-966bdf8c-62e8-43b9-be55-e15d6d784cc2.png">
+<img width="1435" alt="About me section" src="https://user-images.githubusercontent.com/113370886/227821790-88ae739d-7f6b-40b7-9f26-90932933ea3f.png">
 
 
