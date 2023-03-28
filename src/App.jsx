@@ -31,7 +31,7 @@ function App() {
         <Nav />
         <div style={styles.contentContainer}>
           <Routes>
-            <Route path='/nrose19/react-portfolio' element={<MainPage />} />
+            <Route path='/react-portfolio' element={<MainPage />} />
             <Route path='/nrose19/react-portfolio/about-me' element={<AboutMe />} />
             <Route path='/nrose19/react-portfolio/portfolio' element={<PortfolioPage />} />
             <Route path='/nrose19/react-portfolio/contact-me' element={<ContactMe />} />
