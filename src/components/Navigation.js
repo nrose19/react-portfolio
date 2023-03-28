@@ -20,7 +20,7 @@ export default function Nav() {
         <>
             <nav className='bg-blue p-1'>
                 <div className='flex flex-row'>
-                    <Link to='/react-portfolio'>
+                    <Link to='/react-portfolio/'>
                         <NavPic />
                     </Link>
                     <div className='text-white2 flex flex-col justify-center'>
