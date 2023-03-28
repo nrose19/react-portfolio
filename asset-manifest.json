@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.502fc49f.css",
+    "main.js": "/react-portfolio/static/js/main.54738c77.js",
+    "static/media/homepagePic.jpg": "/react-portfolio/static/media/homepagePic.0bcb9975fef4ea6c1985.jpg",
+    "static/media/navPic.JPG": "/react-portfolio/static/media/navPic.bb9471ee16c5bc7318e1.JPG",
+    "static/media/bookBuddy.png": "/react-portfolio/static/media/bookBuddy.57b37b9dea5400d30784.png",
+    "static/media/socialApi.png": "/react-portfolio/static/media/socialApi.f370c1a02b6cfb84e48e.png",
+    "static/media/Movie-Recommender-WTW.png": "/react-portfolio/static/media/Movie-Recommender-WTW.1604ef1dbf3e28fd7ae6.png",
+    "static/media/workDayPlanner.png": "/react-portfolio/static/media/workDayPlanner.fe6e63bb855f8de75198.png",
+    "static/media/teamGenerator.png": "/react-portfolio/static/media/teamGenerator.cde70eca0e3bbb869c09.png",
+    "static/media/burnoutbuddy-project.png": "/react-portfolio/static/media/burnoutbuddy-project.7d8d5a63fce9a7826657.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.502fc49f.css.map": "/react-portfolio/static/css/main.502fc49f.css.map",
+    "main.54738c77.js.map": "/react-portfolio/static/js/main.54738c77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502fc49f.css",
+    "static/js/main.54738c77.js"
+  ]
+}
