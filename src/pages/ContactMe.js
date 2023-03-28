@@ -32,8 +32,11 @@ export default function ContactMe() {
 
     function handleSubmit(e){
       e.preventDefault();
-
-      window.alert(`Your message has been sent!`)
+      if(!error) {
+        window.alert("Your message has been sent!")
+      } else{
+        window.alert("Please make sure name, email, and message have been filled out.")
+      }
     }
 
     return(
