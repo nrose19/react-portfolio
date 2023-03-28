@@ -31,10 +31,10 @@ function App() {
         <Nav />
         <div style={styles.contentContainer}>
           <Routes>
-            <Route path='/react-portfolio/' element={<MainPage />} />
-            <Route path='/react-portfolio/about-me' element={<AboutMe />} />
-            <Route path='/react-portfolio/portfolio' element={<PortfolioPage />} />
-            <Route path='/react-portfolio/contact-me' element={<ContactMe />} />
+            <Route path='/' element={<MainPage />} />
+            <Route path='/about-me' element={<AboutMe />} />
+            <Route path='/portfolio' element={<PortfolioPage />} />
+            <Route path='/contact-me' element={<ContactMe />} />
           </Routes>
         </div>
         <div style={styles.footerPin}>
