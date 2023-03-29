@@ -11,6 +11,10 @@ const styles = {
     },
     oswald: {
         fontFamily: 'Oswald',
+    },
+    aboutMe: {
+        width: '50%',
+        float: 'left'
     }
 }
 
@@ -33,8 +37,9 @@ export default function AboutMe() {
 
     return(
         <>
-        <div className="flex flex-row justify-center items-center">
-            <div className="bg-darkGreen bg-cover min-h-screen pl-48 pr-36 -ml-48 flex items-center">
+        <div className="flex flex-row items-center">
+            {/* <div className="bg-darkGreen bg-cover min-h-screen pl-48 pr-36 -ml-48 flex items-center"> */}
+            <div style={styles.aboutMe} className='bg-darkGreen bg-cover min-h-screen flex items-center justify-center'>
                 <AboutMePic />
             </div>
             <div className="max-w-md ml-20 text-blue">
